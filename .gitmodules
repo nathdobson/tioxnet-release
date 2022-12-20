@@ -22,3 +22,7 @@
 	path = v1.13
 	url = https://github.com/nathdobson/tioxnet
 	branch = v1.13
+[submodule "v1.14"]
+	path = v1.14
+	url = https://github.com/nathdobson/tioxnet
+	branch = v1.14
