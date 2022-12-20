@@ -23,3 +23,4 @@ done
 
 git add .
 git commit -m "Updated releases"
+git push
