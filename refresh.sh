@@ -6,11 +6,13 @@ BRANCHES=$(git branch --format='%(refname:short)')
 BRANCHES="v1.3"
 cd ../tioxnet-release
 
-for BRANCH in $BRANCHES; do
-  echo "[submodule \"$BRANCH\"]"
-  echo "  path = $BRANCH"
-  echo "  url = https://github.com/nathdobson/tioxnet"
-done > .gitmodules
+{
+  for BRANCH in $BRANCHES; do
+    echo "[submodule \"$BRANCH\"]"
+    echo "  path = $BRANCH"
+    echo "  url = https://github.com/nathdobson/tioxnet"
+  done
+} > .gitmodules
 #for BRANCH in $BRANCHES; do
 #  git rm "$BRANCH" || true
 #done
