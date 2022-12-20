@@ -9,6 +9,7 @@ cd ../tioxnet-release
 for BRANCH in $BRANCHES; do
   git rm --cached "$BRANCH" || true
   rm -rf ./v*/
+  rm -rf ./main/
 done
 rm -rf ./.git/modules/*
 for BRANCH in $BRANCHES; do
