@@ -1,3 +1,20 @@
-[submodule "v1.3"]
-  path = v1.3
-  url = https://github.com/nathdobson/tioxnet
+[submodule "v1.9"]
+	path = v1.9
+	url = https://github.com/nathdobson/tioxnet
+	branch = v1.9
+[submodule "main"]
+	path = main
+	url = https://github.com/nathdobson/tioxnet
+	branch = main
+[submodule "v0.1"]
+	path = v0.1
+	url = https://github.com/nathdobson/tioxnet
+	branch = v0.1
+[submodule "v0.2"]
+	path = v0.2
+	url = https://github.com/nathdobson/tioxnet
+	branch = v0.2
+[submodule "v1.12"]
+	path = v1.12
+	url = https://github.com/nathdobson/tioxnet
+	branch = v1.12
